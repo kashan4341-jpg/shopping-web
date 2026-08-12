@@ -1,4 +1,4 @@
-# shopping-web
+# Shopping-web
 
 A modern and responsive shopping web application that allows users to browse products, view product details, manage their shopping cart, and complete the checkout process.
 
