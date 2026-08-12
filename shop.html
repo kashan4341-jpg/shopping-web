@@ -1,0 +1,157 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>SunShade — Shop</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="site-header" aria-label="Site header">
+    <div class="container header-inner">
+      <a href="index.html" class="logo" aria-label="SunShade home">
+        <span class="logo-mark" aria-hidden="true">S</span>
+        <span class="logo-text">SunShade</span>
+      </a>
+      <nav class="main-nav" aria-label="Main navigation">
+        <a href="index.html" class="nav-link" title="Home">Home</a>
+        <a href="shop.html" class="nav-link" title="Shop">Shop</a>
+        <a href="about.html" class="nav-link" title="About">About</a>
+        <a href="contact.html" class="nav-link" title="Contact">Contact</a>
+        <a href="cart.html" class="nav-link cart-link" aria-label="Cart">Cart</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container main" id="shop-main" aria-label="Shop pages">
+    <div class="shop-layout">
+      <aside class="filters" aria-label="Product filters">
+        <h2 class="section-title">Filters</h2>
+        <fieldset class="filter-group" aria-label="Gender">
+          <legend>Gender</legend>
+          <label><input type="checkbox" checked> All</label><br/>
+          <label><input type="checkbox"> Women</label><br/>
+          <label><input type="checkbox"> Men</label>
+        </fieldset>
+        <fieldset class="filter-group" aria-label="Frame Type">
+          <legend>Frame Type</legend>
+          <label><input type="checkbox" checked> All</label><br/>
+          <label><input type="checkbox"> Aviator</label><br/>
+          <label><input type="checkbox"> Wayfarer</label>
+        </fieldset>
+        <fieldset class="filter-group" aria-label="Price">
+          <legend>Price</legend>
+          <label><input type="checkbox" checked> All</label><br/>
+          <label><input type="checkbox"> $0 - $60</label><br/>
+          <label><input type="checkbox"> $60 - $120</label>
+        </fieldset>
+        <fieldset class="filter-group" aria-label="Color">
+          <legend>Color</legend>
+          <label><input type="checkbox" checked> All</label><br/>
+          <label><span class="color-swatch" style="background:#1e3a8a" aria-label="Navy"></span> Navy</label><br/>
+          <label><span class="color-swatch" style="background:#d4af37" aria-label="Gold"></span> Gold</label>
+        </fieldset>
+      </aside>
+
+      <section class="product-grid" aria-label="Product grid">
+        <!-- 8 sample products -->
+        <article class="product-card" aria-label="Lumos Shade product">
+          <img src="https://via.placeholder.com/400x300" alt="Lumos Shade" />
+          <div class="product-info">
+            <h4 class="product-name">Lumos Shade</h4>
+            <p class="price">$89.99</p>
+            <a href="product.html" class="btn btn-outline">View Details</a>
+          </div>
+        </article>
+
+        <article class="product-card" aria-label="Astra Classic product">
+          <img src="https://via.placeholder.com/400x300" alt="Astra Classic" />
+          <div class="product-info">
+            <h4 class="product-name">Astra Classic</h4>
+            <p class="price">$74.99</p>
+            <a href="product.html" class="btn btn-outline">View Details</a>
+          </div>
+        </article>
+
+        <article class="product-card" aria-label="Nova Ultra product">
+          <img src="https://via.placeholder.com/400x300" alt="Nova Ultra" />
+          <div class="product-info">
+            <h4 class="product-name">Nova Ultra</h4>
+            <p class="price">$129.00</p>
+            <a href="product.html" class="btn btn-outline">View Details</a>
+          </div>
+        </article>
+
+        <article class="product-card" aria-label="Polarite product">
+          <img src="https://via.placeholder.com/400x300" alt="Polarite" />
+          <div class="product-info">
+            <h4 class="product-name">Polarite</h4>
+            <p class="price">$99.50</p>
+            <a href="product.html" class="btn btn-outline">View Details</a>
+          </div>
+        </article>
+
+        <article class="product-card" aria-label="Halo Steel product">
+          <img src="https://via.placeholder.com/400x300" alt="Halo Steel" />
+          <div class="product-info">
+            <h4 class="product-name">Halo Steel</h4>
+            <p class="price">$110.00</p>
+            <a href="product.html" class="btn btn-outline">View Details</a>
+          </div>
+        </article>
+
+        <article class="product-card" aria-label="Orion Bold product">
+          <img src="https://via.placeholder.com/400x300" alt="Orion Bold" />
+          <div class="product-info">
+            <h4 class="product-name">Orion Bold</h4>
+            <p class="price">$95.00</p>
+            <a href="product.html" class="btn btn-outline">View Details</a>
+          </div>
+        </article>
+
+        <article class="product-card" aria-label="Zenith Petite product">
+          <img src="https://via.placeholder.com/400x300" alt="Zenith Petite" />
+          <div class="product-info">
+            <h4 class="product-name">Zenith Petite</h4>
+            <p class="price">$68.00</p>
+            <a href="product.html" class="btn btn-outline">View Details</a>
+          </div>
+        </article>
+
+        <article class="product-card" aria-label="Aura Lite product">
+          <img src="https://via.placeholder.com/400x300" alt="Aura Lite" />
+          <div class="product-info">
+            <h4 class="product-name">Aura Lite</h4>
+            <p class="price">$72.50</p>
+            <a href="product.html" class="btn btn-outline">View Details</a>
+          </div>
+        </article>
+      </section>
+    </div>
+  </main>
+
+  <footer class="site-footer" aria-label="Site footer">
+    <div class="container footer-grid">
+      <div class="footer-brand">SunShade</div>
+      <nav class="footer-links" aria-label="Footer links">
+        <a href="index.html" class="footer-link">Home</a>
+        <a href="shop.html" class="footer-link">Shop</a>
+        <a href="about.html" class="footer-link">About</a>
+        <a href="contact.html" class="footer-link">Contact</a>
+      </nav>
+      <form class="newsletter" role="form" aria-label="Newsletter signup">
+        <label for="shop-email" class="sr-only">Email</label>
+        <input id="shop-email" type="email" placeholder="Email address" aria-label="Email address" />
+        <button class="btn" type="submit" aria-label="Subscribe">Subscribe</button>
+      </form>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2026 SunShade. All rights reserved.</p>
+      <div class="socials" aria-label="Social media">
+        <a href="#" class="social-icon" aria-label="Instagram">Instagram</a>
+        <a href="#" class="social-icon" aria-label="Facebook">Facebook</a>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>

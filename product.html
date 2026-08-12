@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>SunShade — Product</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="site-header" aria-label="Site header">
+    <div class="container header-inner">
+      <a href="index.html" class="logo" aria-label="SunShade home">
+        <span class="logo-mark" aria-hidden="true">S</span>
+        <span class="logo-text">SunShade</span>
+      </a>
+      <nav class="main-nav" aria-label="Main navigation">
+        <a href="index.html" class="nav-link" title="Home">Home</a>
+        <a href="shop.html" class="nav-link" title="Shop">Shop</a>
+        <a href="about.html" class="nav-link" title="About">About</a>
+        <a href="contact.html" class="nav-link" title="Contact">Contact</a>
+        <a href="cart.html" class="nav-link" aria-label="Cart">Cart</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container main" id="product-main" aria-label="Product details">
+    <div class="product-detail-grid">
+      <div class="gallery">
+        <img src="images/p1.jpeg" alt="Product large image" />
+        <div class="thumbs" aria-label="Image thumbnails">
+          <img src="https://via.placeholder.com/100x75" alt="Thumbnail 1" />
+          <img src="https://via.placeholder.com/100x75" alt="Thumbnail 2" />
+          <img src="https://via.placeholder.com/100x75" alt="Thumbnail 3" />
+        </div>
+      </div>
+      <div class="details">
+        <h1 class="product-name">Lumos Shade</h1>
+        <p class="price">$89.99</p>
+        <p class="description">
+          Classic silhouette with a modern twist. Lightweight and comfortable for all-day wear.
+        </p>
+        <ul class="specs">
+          <li>Sizes: S, M, L</li>
+          <li>Material: Titanium blend</li>
+          <li>Lens: Anti-scratch coating</li>
+        </ul>
+        <form class="add-to-cart" aria-label="Add to cart form">
+          <label for="qty" class="sr-only">Quantity</label>
+          <input id="qty" type="number" min="1" value="1" aria-label="Quantity" />
+          <button class="btn btn-primary" type="submit" aria-label="Add to cart">Add to Cart</button>
+        </form>
+      </div>
+    </div>
+  </main>
+
+  <footer class="site-footer" aria-label="Site footer">
+    <div class="container footer-grid">
+      <div class="footer-brand">SunShade</div>
+      <nav class="footer-links" aria-label="Footer links">
+        <a href="index.html" class="footer-link">Home</a>
+        <a href="shop.html" class="footer-link">Shop</a>
+        <a href="about.html" class="footer-link">About</a>
+        <a href="contact.html" class="footer-link">Contact</a>
+      </nav>
+      <form class="newsletter" role="form" aria-label="Newsletter signup">
+        <label for="product-email" class="sr-only">Email</label>
+        <input id="product-email" type="email" placeholder="Email address" aria-label="Email address" />
+        <button class="btn" type="submit" aria-label="Subscribe">Subscribe</button>
+      </form>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2026 SunShade. All rights reserved.</p>
+      <div class="socials" aria-label="Social media">
+        <a href="#" class="social-icon" aria-label="Instagram">Instagram</a>
+        <a href="#" class="social-icon" aria-label="Facebook">Facebook</a>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
